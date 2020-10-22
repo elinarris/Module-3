@@ -1,9 +1,13 @@
 body {
-  margin: 5mm;
-  color: black;
+  background-color:#DCE2D9;
+  padding: 5mm;
+  margin: 10mm;
 }
-.Friends {
-  background-color: antiquewhite;
-  width: 700px;
-  height: 300px;
+.vacationCard {
+  background-color:#D9AEAB;
+  padding: 5mm;
+  margin: 10mm;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }

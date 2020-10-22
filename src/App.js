@@ -1,18 +1,12 @@
 import React from "react";
-import FriendList from "./FriendList";
-import Friend from "./Friend";
-import Pets from "./Pets";
+import vacationList from "./vacationList";
+import Vacation from "./Vacation";
 
 function App() {
-  const listFriends = FriendList.map((friend) => (
-    <Friend name={friend.name} age={friend.age} pets={friend.pets}/>
+  const vacationComponents = vacationList.map((spot) => (
+    <Vacation place={spot.place} price={spot.price} timeToGo={spot.timeToGo} />
   ));
-
-  // const listPets = FriendList.map((pet) => (
-  //   <Pets name={pet.pets.name} breed={pet.pets.breed} />
-  // ));
-
-  return <div>{listFriends}</div>;
+  return <div className="vacationCard">{vacationComponents}</div>;
 }
 
 export default App;
