@@ -1,0 +1,29 @@
+body {
+  margin: 0;
+  background-color: gray;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.Square {
+  width: 300px;
+  height: 300px;
+  border: 1px solid yellow;
+}
+.App {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  grid-template-rows: repeat(2, 300px);
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+.buttons {
+  background-color: black;
+  margin: 1.5em;
+  padding: 1.5em;
+  width: 300px;
+  height: 50px;
+}
+button {
+  border: 1px solid white;
+  color: white;
+  background-color: black;
+}

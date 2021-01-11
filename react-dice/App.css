@@ -1,0 +1,14 @@
+body {
+  background-color: antiquewhite;
+  color: black;
+  font-family: Georgia;
+}
+.dices {
+  height: 50px;
+  width: 50px;
+  display: inline-block;
+}
+.die1 {
+  height: 30px;
+  width: 30px;
+}

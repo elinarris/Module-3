@@ -1,0 +1,60 @@
+body {
+  font-family: Arial;
+  color: black;
+}
+.divform {
+  padding-top: 2.5em;
+  margin-left: 2.5em;
+  display: grid;
+  grid-gap: 1em;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  align-content: center;
+}
+.form {
+  width: 870px;
+  height: 300px;
+  border: 1px solid black;
+}
+input {
+  border: 1px solid black;
+  width: 150px;
+}
+textarea {
+  border: 1px solid black;
+  height: 100px;
+  width: 600px;
+}
+.textOutput {
+  border: 1px solid black;
+  width: 600px;
+  height: 100px;
+}
+.badge {
+  border: 1px solid black;
+  border-radius: 3mm;
+  height: 300px;
+  width: 800px;
+}
+.badgeTitle {
+  background-color: gray;
+  height: 50px;
+  width: 800px;
+  border: 1px solid gray;
+  border-radius: 2mm;
+  color: white;
+  display: flex;
+  margin-top: 0mm;
+}
+.badgeOutput {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-items: center;
+}
+button {
+  border: 1px solid black;
+  border-radius: 1mm;
+  width: 150px;
+  height: 100px;
+}
