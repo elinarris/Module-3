@@ -1,16 +1,25 @@
 import React from "react";
-import FriendList from "./FriendList";
-import Friend from "./Friend";
-import Pets from "./Pets";
+import Header from "./Header";
+import BlogList from "./BlogList";
+import Footer from "./Footer";
+import BlogPost from "./BlogPost";
 
 function App() {
-  const listFriends = FriendList.map((friend) => (
-    <Friend name={friend.name} age={friend.age} pets={friend.pets}/>
+  const blogStuff = BlogList.map((blog) => (
+    <BlogPost
+      title={blog.title}
+      subTitle={blog.subTitle}
+      author={blog.author}
+      date={blog.date}
+    />
   ));
-
-  return <div className="whole-screen">
-    {listFriends}
-    </div>;
+  return (
+    <div className="App">
+      <Header />
+      {blogStuff}
+      <Footer />
+    </div>
+  );
 }
 
 export default App;
