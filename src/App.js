@@ -1,12 +1,16 @@
 import React from "react";
-import vacationList from "./vacationList";
-import Vacation from "./Vacation";
+import FriendList from "./FriendList";
+import Friend from "./Friend";
+import Pets from "./Pets";
 
 function App() {
-  const vacationComponents = vacationList.map((spot) => (
-    <Vacation place={spot.place} price={spot.price} timeToGo={spot.timeToGo} />
+  const listFriends = FriendList.map((friend) => (
+    <Friend name={friend.name} age={friend.age} pets={friend.pets}/>
   ));
-  return <div className="vacationCard">{vacationComponents}</div>;
+
+  return <div className="whole-screen">
+    {listFriends}
+    </div>;
 }
 
 export default App;
