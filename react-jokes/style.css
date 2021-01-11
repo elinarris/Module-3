@@ -1,0 +1,16 @@
+body {
+  background: transparent;
+}
+.jokes-list {
+  padding: 5mm;
+  margin: 5mm;
+  background: gray;
+}
+h1 {
+  background: black;
+  padding: 5mm;
+  color: white;
+}
+p {
+  color: white;
+}
