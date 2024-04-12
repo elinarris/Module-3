@@ -1,0 +1,12 @@
+body {
+    margin: 0;
+}
+.navbar {
+    background-color: bisque;
+}
+.content {
+    background-color: cadetblue;
+}
+.footer {
+    background-color: coral;
+}
